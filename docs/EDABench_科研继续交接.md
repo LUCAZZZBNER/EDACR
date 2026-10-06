@@ -17,7 +17,7 @@
 data/edabench_initial_2026-10-05/next_steps/20261006_c/
 ```
 
-开发副本：`work/EDABench/`。原始 `extracted/EDABench`、`audit_material_20261005/EDABench`、旧 audit 批次和原始压缩包保持只读。原包中的 GitHub 配置含旧凭证，不要打印、读取用于请求或复制进新项目；如要重新采集，使用另行配置的凭证。
+当前开发与 Git 根目录：`data/edabench_initial_2026-10-05/extracted/EDABench/`，代码修复已合入并上传 GitHub。2026-10-06 已取消数据上传并清理旧 `work/EDABench/` 和 `audit_material_20261005/` 重复副本；需要数据库等原始材料时，从保留的 `edabench.tar.gz` 或学长云盘恢复数据，避免覆盖修复代码。旧 audit 批次、本轮结果和原始压缩包保留。新增 `data/audit/20261006_c/` 不在学长原包和 Git 中，需要单独备份。原包中的 GitHub 配置含旧凭证，不要打印、读取用于请求或复制进新项目；如要重新采集，使用另行配置的凭证。
 
 ## 2. 已完成，不要重复宣称未做
 

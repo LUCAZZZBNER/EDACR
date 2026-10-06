@@ -4,7 +4,7 @@
 
 本仓库保留原下载项目的目录结构，并直接合入 2026-10-06 已核查的代码修复。当前代码在原项目位置的 Linux 全套测试为 80 passed。源码仓库：https://github.com/LUCAZZZBNER/EDACR。
 
-完整 `data/` 不提交到 Git。**截至 2026-10-06，大数据包尚未上传，本地打包已停止，原始数据仍保留在本地。** [Google Drive 目标文件夹](https://drive.google.com/drive/folders/1GMo1vTnPHk9KEGbGP4D9z_2AsUA6S7DH)目前只有数据说明和数据库脱敏记录，不能据此恢复完整数据。下述恢复说明供后续发布完整数据包时使用。原始采集数据与新增 `data/audit/20261006_c` 修订证据分开保留；模型标签及试跑参考仍未经过真人专家确认。
+完整 `data/` 不提交到 Git。**2026-10-06 已取消本次数据上传；原始数据继续使用学长提供的云盘备份或本地原始压缩包。** 只将原包中的 `EDABench/data/` 恢复到当前项目根目录，避免覆盖已修复的代码。原包的真实凭证不能复用或公开。新增 `data/audit/20261006_c` 修订与试跑证据不在原包中，需另外保留；模型标签及试跑参考仍未经过真人专家确认。
 
 API 采集前，将 `config/github.example.yaml` 复制为本地 `config/github.yaml` 并填入自己的 token；真实配置已被 Git 忽略。下载的 `reference/aacr-bench` 上游源码也不提交，固定来源与 commit 见 `reference/aacr-source.json`。完整说明见 [仓库与数据说明](docs/project-publication.md)。
 
