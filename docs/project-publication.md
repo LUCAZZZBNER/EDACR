@@ -1,5 +1,7 @@
 # 仓库与数据说明
 
+**上传状态（2026-10-06）：GitHub 源码与文档已发布；大数据包尚未上传，本地打包已停止。云盘目前仅有 `DATA_README.md` 和 `database_sanitization.json`，没有完整数据包、manifest 或校验清单。原始数据保留在本地。下文的数据包与恢复流程是后续发布计划，不代表上传已完成。**
+
 2026-10-06 按要求保留原项目结构，把已测试修复直接覆盖到项目中，以此目录作为 Git 仓库根目录。覆盖前文件在原工作区的 `publication/source_before_merge` 备份，原始下载压缩包未改。
 
 源码：[LUCAZZZBNER/EDACR](https://github.com/LUCAZZZBNER/EDACR)。完整数据：[Google Drive 目标文件夹](https://drive.google.com/drive/folders/1GMo1vTnPHk9KEGbGP4D9z_2AsUA6S7DH)。
