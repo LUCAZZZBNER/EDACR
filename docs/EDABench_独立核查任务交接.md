@@ -58,7 +58,7 @@
 | 下载状态 | `D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/download_status.json` |
 | 本交接文档 | `D:/Projects/researches/EDACR/docs/EDABench_独立核查任务交接.md` |
 
-压缩包来源：[Google Drive 分享文件](https://drive.google.com/file/d/1WtiEqyexmmyn5ig1H9fVCcb1I8qdfuLy/view)。文件名 edabench.tar.gz，大小 **16,572,762,941 字节**，本地下载后计算的 SHA-256：
+压缩包来源：学长提供的 Google Drive 原始备份（含凭证，公开文档省略原始下载链接；共享数据使用仓库 README 中的脱敏数据链接）。文件名 edabench.tar.gz，大小 **16,572,762,941 字节**，本地下载后计算的 SHA-256：
 
 ```text
 9a94bb0c99e829b1c9a5f23295765d0a36156d3e3e400aae4fe5ecd0628547c5
