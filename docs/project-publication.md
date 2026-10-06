@@ -6,7 +6,11 @@
 
 Git 管理源码、脚本、测试、依赖配置、文档、PPT、Excel 仓库清单及参考来源记录。`.gitignore` 排除整个 `data/`、真实 GitHub 配置、环境缓存、大压缩包及下载的 AACR 参考源码副本。GitHub 不保存全量数据库、采集结果或源码快照。
 
-数据包 `EDABench-data-20261006.tar.gz` 从完整原包中的 `EDABench/data/` 重新打包，归档路径以 `data/` 开头；加入本轮 `data/audit/20261006_c` 修订和试跑证据。原项目配置与代码不在数据包内，GitHub PAT 模式检查覆盖打包的数据字节。云盘同时保存 `data_manifest.json`、`checksums.sha256` 和 `DATA_README.md`。不要把按需解压的本地 data 目录当作完整原包。
+数据包 `EDABench-data-20261006.tar.gz` 从完整原包中的 `EDABench/data/` 重新打包，归档路径以 `data/` 开头；加入本轮 `data/audit/20261006_c` 修订和试跑证据。此前独立核查证据位于该批次的 `previous_audits/20261005_a` 和 `previous_audits/20261006_b`，排除了安装环境、临时夹具和可重建副本。
+
+原始 SQLite 缓存的公开 GitHub 评论正文中含有 GitHub PAT 格式字符串。云盘使用通过 SQLite backup 制作的副本，对载荷正文中的凭证串作等长脱敏，保持表记录数量和主键不变，检查 JSON、SQLite 完整性和物理文件中的凭证残留。原始数据库在本地保留，不修改。具体变化和副本摘要在 `data/audit/20261006_c/publication/database_sanitization.json` 中。
+
+原项目配置与代码不在数据包内，GitHub PAT 模式检查覆盖打包的数据字节。云盘同时保存 `data_manifest.json`、`checksums.sha256` 和 `DATA_README.md`。不要把按需解压的本地 data 目录当作完整原包。
 
 拿到仓库和数据包后：
 
