@@ -1,0 +1,20 @@
+{
+  "local_inputs": [
+    {
+      "path": "docs/EDACR.pptx",
+      "sha256": "74027181d41b80292a548bd597c610008d14bbfb97c7eb5d62e7f83433a454dd",
+      "bytes": 2576627
+    },
+    {
+      "path": "docs/final_repository.xlsx",
+      "sha256": "363dc147cb6033d714a6241a3a085e47f577ed03f512cc23c1aa80097e99cc08",
+      "bytes": 15970
+    },
+    {
+      "path": "reference/2601.19494v3.pdf",
+      "sha256": "adc40e7877b2d478a69c12c1729f80a4c5e4eb9ff846a014e70e9eb2b86a6528",
+      "bytes": 3536934
+    }
+  ],
+  "paper_url": "https://arxiv.org/abs/2601.19494v3"
+}
