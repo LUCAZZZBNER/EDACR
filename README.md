@@ -4,7 +4,9 @@
 
 本仓库保留原下载项目的目录结构，并直接合入 2026-10-06 已核查的代码修复。当前代码在原项目位置的 Linux 全套测试为 80 passed。源码仓库：https://github.com/LUCAZZZBNER/EDACR。
 
-完整 `data/` 不提交到 Git。**2026-10-06 已取消本次数据上传；原始数据继续使用学长提供的云盘备份或本地原始压缩包。** 只将原包中的 `EDABench/data/` 恢复到当前项目根目录，避免覆盖已修复的代码。原包的真实凭证不能复用或公开。新增 `data/audit/20261006_c` 修订与试跑证据不在原包中，需另外保留；模型标签及试跑参考仍未经过真人专家确认。
+2026-10-07 已将项目提到 `D:/Projects/researches/EDACR`，现在直接打开这个目录开发。外部独有记录全部归入项目，旧 `extracted` 层级和原始大压缩包已按要求删除。新根目录的 Linux 全套测试为 80 passed。目录、记录位置和数据恢复方式见 [项目目录与迁移说明](docs/project-layout.md)。
+
+完整 `data/` 不提交到 Git，数据上传已取消；本地只有按需解出的数据，后续从学长提供的原始云盘恢复所需材料。下载来源、原包 SHA-256 和目录清单保存在本地 `data/provenance/layout_20261007/download/`。只将原包中所需的 `EDABench/data/` 内容合入当前项目的 `data/`，避免覆盖已修复的代码和新增记录。原包的真实凭证不能复用或公开。新增 `data/audit/20261006_c` 与 `data/provenance/` 不在原包中，也不随 Git 上传，需要另外备份；模型标签及试跑参考仍未经过真人专家确认。
 
 API 采集前，将 `config/github.example.yaml` 复制为本地 `config/github.yaml` 并填入自己的 token；真实配置已被 Git 忽略。下载的 `reference/aacr-bench` 上游源码也不提交，固定来源与 commit 见 `reference/aacr-source.json`。完整说明见 [仓库与数据说明](docs/project-publication.md)。
 

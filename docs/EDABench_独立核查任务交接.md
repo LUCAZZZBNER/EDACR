@@ -1,5 +1,7 @@
 # EDABench 独立核查任务交接
 
+> 2026-10-07 目录迁移说明：本文保留当时阶段的记录，当前项目根目录为 `D:/Projects/researches/EDACR/`；原始压缩包已按要求删除，原始数据从学长云盘恢复。当前目录与历史路径对照见 [项目目录与迁移说明](project-layout.md)，本轮结果在 `data/audit/20261006_c/`。
+
 交接日期：2026-10-05（Asia/Shanghai）。工作区：`D:/Projects/researches/EDACR`。本文供用户在新的独立对话中交给 LLM 接手，包含任务、上下文、已完成工作、文件位置、证据边界和交付要求。
 
 ## 1. 接手后需要完成什么
@@ -58,7 +60,7 @@
 | 下载状态 | `D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/download_status.json` |
 | 本交接文档 | `D:/Projects/researches/EDACR/docs/EDABench_独立核查任务交接.md` |
 
-压缩包来源：学长提供的 Google Drive 原始备份（含凭证，公开文档省略原始下载链接；共享数据使用仓库 README 中的脱敏数据链接）。文件名 edabench.tar.gz，大小 **16,572,762,941 字节**，本地下载后计算的 SHA-256：
+压缩包来源：学长提供的 Google Drive 原始备份。原始下载链接保存在本地 `data/provenance/layout_20261007/download/source_metadata.json`；本次没有发布脱敏数据包，原始压缩包已于 2026-10-07 按要求删除。原文件名 edabench.tar.gz，大小 **16,572,762,941 字节**，原下载时计算的 SHA-256：
 
 ```text
 9a94bb0c99e829b1c9a5f23295765d0a36156d3e3e400aae4fe5ecd0628547c5
@@ -74,9 +76,9 @@
 
 优先阅读以下真实本地文件；用户可能在 IDE 中编辑过，保留现有内容，不要覆盖：
 
-- [目录与文件说明](D:/Projects/researches/EDACR/docs/EDABench_目录与文件说明.md)
-- [研究方向与创新点大纲](D:/Projects/researches/EDACR/docs/EDACR_研究方向与创新点大纲.md)
-- [研究方向 PPT](D:/Projects/researches/EDACR/docs/EDACR.pptx)
+- [目录与文件说明](EDABench_目录与文件说明.md)
+- [研究方向与创新点大纲](EDACR_研究方向与创新点大纲.md)
+- [研究方向 PPT](EDACR.pptx)
 
 原 PPT 的思路：PR 级 EDA code review benchmark；收集 PR、提交、文件、审查线程；按目标审查版本组织评论；选择一个审查版本；将基线到该版本的完整 diff 作为代码改动材料，将对应实质审查意见作为参考。
 

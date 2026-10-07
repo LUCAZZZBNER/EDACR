@@ -1,4 +1,4 @@
-# Collected data is distributed separately through cloud storage.
+# Collected data and local audit/provenance records are not committed to Git.
 /data/
 # Local credentials; commit only the example.
 /config/github.yaml

@@ -93,19 +93,19 @@ P0 指最终 benchmark 可信度的前置条件，P1 指下一轮标注/接入�
 
 证据分别保存在 [A/B/C 批次][prior-root]、[D/E 批次 README][current-readme]。四份报告共同覆盖此次任务；前两份日期和“当时未开展 AACR”的范围说明作为历史记录保留，本报告补齐后续范围。
 
-[code-report]: <D:/Projects/researches/EDACR/docs/EDABench_代码核查报告.md>
-[case-report]: <D:/Projects/researches/EDACR/docs/EDABench_15例独立审阅.md>
-[method-report]: <D:/Projects/researches/EDACR/docs/EDABench_AACR方法对照.md>
-[full-check]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/full_annotation_checks.json>
-[aggregate-check]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/aggregation_semantic_comparison.json>
-[case-checks]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/case_checks.csv>
-[archive-coverage]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261006_b/evidence/package_archive_coverage.json>
-[static-traces]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261006_b/reference_adapter_static_traces.json>
-[prior-root]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/README.md>
-[current-readme]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261006_b/README.md>
-[C01]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/cases/case-01.md>
-[C03]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/cases/case-03.md>
-[C05]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/cases/case-05.md>
-[C07]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/cases/case-07.md>
-[C10]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/cases/case-10.md>
-[C13]: <D:/Projects/researches/EDACR/data/edabench_initial_2026-10-05/independent_audit/20261005_a/cases/case-13.md>
+[code-report]: <EDABench_代码核查报告.md>
+[case-report]: <EDABench_15例独立审阅.md>
+[method-report]: <EDABench_AACR方法对照.md>
+[full-check]: <../data/audit/20261006_c/previous_audits/20261005_a/full_annotation_checks.json>
+[aggregate-check]: <../data/audit/20261006_c/previous_audits/20261005_a/aggregation_semantic_comparison.json>
+[case-checks]: <../data/audit/20261006_c/previous_audits/20261005_a/case_checks.csv>
+[archive-coverage]: <../data/audit/20261006_c/previous_audits/20261006_b/evidence/package_archive_coverage.json>
+[static-traces]: <../data/audit/20261006_c/previous_audits/20261006_b/reference_adapter_static_traces.json>
+[prior-root]: <../data/audit/20261006_c/previous_audits/20261005_a/README.md>
+[current-readme]: <../data/audit/20261006_c/previous_audits/20261006_b/README.md>
+[C01]: <../data/audit/20261006_c/previous_audits/20261005_a/cases/case-01.md>
+[C03]: <../data/audit/20261006_c/previous_audits/20261005_a/cases/case-03.md>
+[C05]: <../data/audit/20261006_c/previous_audits/20261005_a/cases/case-05.md>
+[C07]: <../data/audit/20261006_c/previous_audits/20261005_a/cases/case-07.md>
+[C10]: <../data/audit/20261006_c/previous_audits/20261005_a/cases/case-10.md>
+[C13]: <../data/audit/20261006_c/previous_audits/20261005_a/cases/case-13.md>
